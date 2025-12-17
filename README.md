@@ -1,15 +1,27 @@
- Library-Management-system
-A Library Management System (LMS) in Python is a software application designed to manage the basic functions of a library such as adding books, listing available books, issuing (borrowing) books, returning books, and maintaining records. It helps automate the daily tasks of a library, reducing manual effort and increasing efficiency.
-1.Library Management System Project Overview: This project is a Console-Based Library Management System built using Python. It was developed as to demonstrate mastery of Python Fundamentals, Object-Oriented Programming (OOP), and File Handling. The system allows librarians to manage book inventories and enables users to borrow or return books. Unlike simple scripts, this project uses a modular architecture and persistent storage (data is saved to a file), ensuring that records remain intact even after the program is closed.
+# library-managament-system
+A simple Library Management System built using Python to practice core programming concepts such as functions, conditionals, loops, and data handling. This is a console-based beginner project designed for learning and practice.
 
-Key features: Book Management: Add new books with ID, Title, and Author details. Inventory Tracking: View a real-time list of all books and their availability status (Available/Borrowed). Borrowing System: Check out books, automatically updating their status in the database. Return System: Return books to the library, making them available again. Data Persistence: All data is automatically saved to library_data.txt. No database setup is required. Error Handling: Robust validation for invalid inputs (e.g., empty fields, non-existent IDs).
+## 📌 Project Overview
+The Library Management System is a beginner-friendly, Python project designed to simulate basic library operations. It allows users to manage books by adding, viewing, issuing, returning, and deleting records through a simple menu-driven interface. The project focuses on strengthening core Python fundamentals and logical thinking rather than advanced frameworks or databases.
 
-Technologies & Tools Used Language: Python 3.x Concepts Covered (Syllabus Alignment): Module 12: Object-Oriented Programming (Classes Book, Library) Module 10: Modules & Packages (Importing library, book) Module 11: Arrays/Lists (Managing book collections) Module 9: Functions (Modular logic) Module 8: Control Flow (Menu loops, conditional logic) Module 4: Input/Output Operations Version Control: Git & GitHub IDE: VS Code / PyCharm
+### Features
+- Add new books to the library
+- Display all available books
+- Issue books to users
+- Return issued books
+- Delete book records
+- Menu-driven, user-friendly interface
 
-4.Project Structure The project follows a modular design with separation of concerns: Library-Management/ │ ├── book.py Class definition for a 'Book' object ├── library.py Logic for managing the collection and file handling ├── main.py The main entry point (Menu & User Interface) ├── library_data.txt Auto-generated file where data is stored ├── README.md Project documentation └── statement.md Problem statement and scope definition5.Steps to Install & Run
+#### Concept Used
+- Python functions
+- Conditional statements (if-else)
+- Loops (for, while)
+- Lists and dictionaries
+- User input handling
+- Basic program flow and logic building
 
-5.Clone the Repository git clone https://github.com/your-username/Library-Management.git cd Library-Management Verify Files Ensure that main.py, library.py, and book.py are in the same folder. Run the Application Execute the main script using Python: python main.py
-
-6.Instructions for Testing Follow these steps to verify the system works as expected: Test Adding a Book: Select Option 1 (Add New Book). Enter ID: 101, Title: Python Basics, Author: Guido. Expected Result: Success message appearing. Test Viewing Books: Select Option 2. Expected Result: You should see [ID: 101] Python Basics... (Available). Test Persistence (The "Close & Reopen" Test): Select Option 5 to Exit. Run python main.py again. Select Option 2. Expected Result: The book 101 should still be there (loaded from file). Test Validation: Try to borrow a book with ID 999 (which doesn't exist). Expected Result: The system should show an error message and not crash. <img width="1918" height="732" alt="image" src="https://github.com/user-attachments/assets/61a71dd9-7320-41b2-b75f-e7a2afaa5a34" />
-<img width="1919" height="743" alt="image" src="https://github.com/user-attachments/assets/494f2f00-cedb-4d4c-b88b-075e9bd80436" />
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/25709024-5e97-4fcf-888b-9450552262f0" />
+###### Learning Outcome
+- Learning Outcomes
+- Improved logical thinking and problem-solving skills
+- Goot Better in building a complete menu-driven application
+- Understood basic data management using Python data structures
